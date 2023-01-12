@@ -17,11 +17,9 @@ def Exit():
     exit()
 screen.geometry('900x400')
 def playsss():
-    while True:
-        while True:
-            list = ["music/DetectiveConan.mp3", "music/DetectiveConanSad.mp3", "music/naruto-war-music.mp3"]
-            music = choice(list)
-            ps.playsound(music , False)
+        list = ["music/DetectiveConan.mp3", "music/DetectiveConanSad.mp3", "music/naruto-war-music.mp3"]
+        music = choice(list)
+        ps.playsound(music , False)
 Text = tk.Label(screen, text="Play Detective Conan music").pack(pady=10)
 Play = tk.Button(screen, text="Play Detective conan music", command=play).pack(pady =15)
 Plays = tk.Button(screen, text="Play Detective conan sad music", command=plays).pack(pady =15)
